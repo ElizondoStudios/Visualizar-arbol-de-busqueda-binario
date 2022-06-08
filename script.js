@@ -18,12 +18,9 @@ ForthRow.forEach(element => {
 //Agregar valor failsave
 var AgregarCheck= function(){
     if(ValorTxt.value==="")
-        alert("true");
-        //return true;
+        return true;
     else if(parseInt(ValorTxt.value, 10)===NaN)
-        alert("true");
-        //return true;
+        return true;
     else
-        alert("false");
-    //return false;
+        return false;
 }
